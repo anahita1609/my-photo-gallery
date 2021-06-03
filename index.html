@@ -1,0 +1,69 @@
+<!DOCTYPEhtml>
+	<html lang="en">
+
+	<head>
+	<meta charset="utf-8">
+	<title> My Photo Gallery </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<center>
+		<ul class="menu">
+			<li class="links"> <a href="#Home">Home </a> </li>
+			<li class="links"> <a href="#Grid view">Grid View </a></li>
+			<li class="links"> <a href="#mycarousel">Slide View </a></li>
+		</ul>
+	</center>
+
+	<section id="Home">
+		<h1> Welcome to my Photo Gallery </h1>
+		<img src="photo.JPG" />
+	</section>
+
+	<section id="Grid view">
+		<h2> Grid Gallery </h2>
+		<br>
+		<div class="row">
+			<img src="photo2.JPG" />
+			<img src="photo3.JPG" />
+			<img src="photo5.JPG" />
+			<img src="pic%202.JPG" />
+		</div>
+
+		<div class="row">
+			<img src="pic1.JPG" />
+			<img src="pic4.JPG" />
+			<img src="pic5.JPG"/>
+			<img src="pic6.JPG" />
+		</div>
+	</section>
+
+	<h2> Slide Gallery </h2>
+	<div id="mycarousel" class="carousel slide">
+		<div class="carousel-inner">
+			<div class="item active">
+				<center>
+					<img src="pic7.JPG" class="img-responsive">
+					<div class="carousel-content">
+					</div>
+				</center>
+			</div>
+			<div class="item">
+				<center>
+					<img src="pic8.jpg" class="img-responsive">
+					<div class="carousel-content">
+					</div>
+				</center>
+			</div>
+		</div>
+		<a class="left carousel-control" href="#mycarousel" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"> </span> </a>
+		<a class="right carousel-control" href="#mycarousel" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"> </span> </a>
+	</div>
+</body>
+</html>
